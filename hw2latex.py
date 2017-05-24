@@ -14,7 +14,7 @@ latex_jinja_env = jinja2.Environment(
     loader = jinja2.FileSystemLoader(os.path.abspath('templates'))
 )
 
-print('DOCUMENT INPUT')
+print('\n* DOCUMENT INPUT *\n')
 author = input('Your name: ')
 class_name = input('Class name: ')
 assignment_number = input('Assignment Number: ')
@@ -35,10 +35,18 @@ while True:
 
     if input('Hit enter to continue. Type "exit" to exit. ') == 'exit':
         break
-
+    print('\n')
 template = latex_jinja_env.get_template('template.tex')
 
-homework = open('Assignment' + assignment_number + '.tex', 'w')
+
+output_dir = 'Assignment' + assignment_number
+output_file = output_dir + '.tex'
+
+if not os.path.exists(output_dir):
+    os.makedirs(output_dir)
+
+homework = open(os.path.join(output_dir, output_file), 'w')
+
 homework.write(template.render(
     author=author,
     class_name=class_name,
