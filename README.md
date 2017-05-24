@@ -49,3 +49,11 @@ Short excerpt of problem:<b>The French mathematician Jean DAlembert claimed</b>
 Points:<b>4</b>
 Hit enter to continue. Type "exit" to exit. <b>exit</b>
 </pre>
+
+# Result
+
+### LaTeX Output:
+![alt tag](https://github.com/kev-zheng/hw2latex/blob/master/Example/A1_code_example.png)
+
+### Resulting example PDF:
+![alt tag](https://github.com/kev-zheng/hw2latex/blob/master/Example/A1_pdf_example.png)
