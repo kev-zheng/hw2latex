@@ -24,6 +24,7 @@ python3 hw2latex
 and follow the command line instructions.
 
 # Example
+(copy & paste straight from homework PDF)
 <pre>
 $ python3 hw2latex
 
