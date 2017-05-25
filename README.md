@@ -1,4 +1,4 @@
-# hw2latex
+# hw2tex
 
 An easy to use command line interface for a standard LaTeX homework template
 using Jinja2 in Python 3
@@ -6,7 +6,7 @@ using Jinja2 in Python 3
 # Example
 (copy & paste straight from homework PDF)
 <pre>
-$ python3 hw2latex
+$ python3 hw2tex
 
 * DOCUMENT INPUT *
 
@@ -34,20 +34,20 @@ Hit enter to continue. Type "exit" to exit. <b>exit</b>
 # Result
 
 ### LaTeX Output:
-![alt tag](https://github.com/kev-zheng/hw2latex/blob/master/Example/A1_code_example.png)
+![alt tag](https://github.com/kev-zheng/hw2tex/blob/master/Example/A1_code_example.png)
 
 ### Resulting example PDF:
-![alt tag](https://github.com/kev-zheng/hw2latex/blob/master/Example/A1_pdf_example.png)
+![alt tag](https://github.com/kev-zheng/hw2tex/blob/master/Example/A1_pdf_example.png)
 
 # Installation
 
 Clone this repository
 ```
-git clone https://github.com/kev-zheng/hw2latex.git
+git clone https://github.com/kev-zheng/hw2tex.git
 ```
 
 # Dependencies
-hw2latex.py uses __Python 3__ and __Jinja 2__
+hw2tex.py uses __Python 3__ and __Jinja 2__
 ```
 pip3 install jinja2
 ```
@@ -55,7 +55,7 @@ pip3 install jinja2
 # Usage
 Simply run
 ```
-python3 hw2latex
+python3 hw2tex
 ```
 and follow the command line instructions.
 
