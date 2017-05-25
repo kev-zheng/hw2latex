@@ -1,6 +1,6 @@
 # hw2tex
 
-An easy to use command line interface for a standard LaTeX homework template
+An easy to use command line interface to create a standard LaTeX homework template
 using Jinja2 in Python 3
 
 # Example
